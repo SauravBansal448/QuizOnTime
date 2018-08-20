@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.kiet.quiz.quizontime">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/iconq"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Flash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/javatest1"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Tab"
+            android:label=""
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ScoreDisplay"
+            android:label="@string/scoredisplay1"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".CActivity"
+            android:label="@string/ctest1"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".LRActivity"
+            android:label="@string/LRtest"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Aptitude"
+            android:label="@string/Aptitude"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Login"
+            android:label="@string/login1"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".CPP"
+            android:label="@string/Cpptest"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Python"
+            android:label="@string/pythontest1"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ComputerBasic"
+            android:label="@string/computertest" />
+        <activity
+            android:name=".JavaScript"
+            android:label="@string/jstest"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".About"
+            android:label="About Us"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

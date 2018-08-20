@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="LOG OUT"
+        android:id="@+id/logout"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+    <item
+        android:title="About Us"
+        android:id="@+id/about"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>
